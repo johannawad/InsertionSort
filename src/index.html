@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert Sort with Web Worker</title>
+    <script defer src="../../work/knab-frontend-browser-not-supported/dist/unsupported.umd.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Web Worker Demo</h1>
+        <label for="interval">Enter the trigger interval in ms (between 1 and 5000):</label>
+        <br/>
+        <input id="interval" type="text"/>
+        <button id="button" type="button">Start web worker</button>
+        <p class="text" id="result"></p>
+        <p class="text" id="total-duration"></p>
+        <p class="text" id="sort-duration"></p>
+        <p class="text" id="average-message-time"></p>
+        <p class="text" id="message-durations-info" hidden>Pssst...check the browser's console for the duration time of each message.</p>
+    </main>
+</body>
+</html>

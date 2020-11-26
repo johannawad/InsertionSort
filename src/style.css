@@ -1,0 +1,64 @@
+html,
+body{
+    font-family: Helvetica, sans-serif;
+    background: linear-gradient(#1ECBE1, #9198E5) fixed;
+    height: 100%;
+    color: white; 
+    overflow: hidden;
+    background-repeat:no-repeat;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 280px;
+}
+
+#button{
+	background-color:white;
+	border-radius:5px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#18A0B1;
+	font-size:18px;
+	padding: 15px 75px;
+    text-decoration:none;
+    margin: 10px;
+}
+
+#button:hover {
+    background-color:#F3FCFD;
+}
+
+input[type=text] {
+    border: none;
+    background-color: transparent;
+    border-bottom: 4px solid #18A0B1;  
+    outline-color: transparent;
+    text-align: center;
+    color: white;
+    font-size:30px;
+ }
+
+ input[type=text]:focus {
+    background-color: transparent;
+    border-bottom: 4px solid #C1F1F7; 
+    outline-style: none;
+    text-align: center;
+}
+
+.text {
+    line-height: 0;
+}
+
+#message-durations-info{
+    line-height: 5;
+    font-size: small;
+    font-style: italic;
+}
